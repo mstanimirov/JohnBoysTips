@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80000000" android:id="@+id/frame" android:padding="10dp" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2" />
+
+        <RelativeLayout android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="0.6" android:paddingBottom="2dp" android:orientation="vertical" android:layout_marginTop="10dp" android:layout_gravity="center" android:background="@drawable/dialog_bgr" android:id="@+id/main_content" >
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" android:orientation="vertical" android:id="@+id/main" >
+
+                <TextView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/myTitle"
+                    android:layout_width="fill_parent"
+                    android:textSize="20sp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/dialog_text"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/border_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/dialog_border" />
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" android:id="@+id/message" >
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/btngroup" android:layout_below="@id/main" >
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lightGrey">
+
+            <TextView
+                android:id="@+id/north"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:layout_span="3"
+                android:gravity="center_vertical"
+                android:text="North"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGrey">
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    <TableLayout
+        android:id="@+id/table2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontalView"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lightGrey">
+
+            <TextView
+                android:id="@+id/midlands"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:layout_span="3"
+                android:gravity="center_vertical"
+                android:text="Midlands"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table2"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGrey">
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    <TableLayout
+        android:id="@+id/table3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontalView2"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lightGrey">
+
+            <TextView
+                android:id="@+id/south"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:layout_span="3"
+                android:gravity="center_vertical"
+                android:text="South"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/table3"
+        android:layout_marginBottom="30dp"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightGrey">
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

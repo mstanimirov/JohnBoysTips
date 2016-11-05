@@ -1,0 +1,139 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#a3a3a3</item>
+        <item name="colorControlActivated">#fff</item>
+        <item name="colorControlHighlight">#fff</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">#a3a3a3</item>
+        <item name="colorControlActivated">#fff</item>
+        <item name="colorControlHighlight">#fff</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--Login -->
+
+    <string name="logo_description">logo</string>
+
+    <string name="e_mail_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="re_password_hint">Retype Password</string>
+
+
+    <style name="ParentLinear">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="ParentLinearHeader">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/lightGrey</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="ParentLinearHeaderDate">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="ParentLinearHeaderDateBgr">
+
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#131313</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="ParentLinearHeaderDateTextView">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">50sp</item>
+
+    </style>
+
+    <style name="ParentLinearHeaderDateTextView2">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="ParentLinearHeaderTextView">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="ParentLinearContent">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="Message">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#262626</item>
+
+    </style>
+
+</resources>

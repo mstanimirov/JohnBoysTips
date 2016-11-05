@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/colorBlue</color>
+    <color name="colorPrimaryDark">@color/colorDarkBlue</color>
+    <color name="colorAccent">@color/colorYellow</color>
+
+    <color name="colorYellow">#e89d05</color>
+    <color name="colorBlue">#151f5d</color>
+    <color name="colorDarkBlue">#0b1031</color>
+
+    <color name="white">#fff</color>
+
+    <color name="lightGrey">#dedede</color>
+    <color name="Grey">#aaaaaa</color>
+    <color name="lightGrey25">#40aaaaaa</color>
+    <color name="darkGrey">#131313</color>
+    <color name="hellGrey">#666666</color>
+
+    <color name="materialGrey">#BDBDBD</color>
+    <color name="materialGrey2">#9E9E9E</color>
+
+    <color name="buttonYellow">@color/colorYellow</color>
+    <color name="buttonYellowPressed">#cd8b04</color><!-- #dd9605 -->
+
+    <color name="colorHint">#a3a3a3</color>
+    <color name="error">#D50000</color>
+
+    <color name="dialog_border">#e89d05</color>
+    <color name="dialog_border_left">#80DDDDDD</color>
+    <color name="dialog_text">#e89d05</color>
+    <color name="dialog_btn_hover">#40e89d05</color>
+
+    <color name="bet_text">#1552CF</color>
+
+</resources>
